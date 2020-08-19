@@ -7,7 +7,7 @@
  }
  html {
      font-size: 10;
-     font-family: 'Roboto', sans-serif;
+     font-family: Roboto, sans-serif;
      color: #eee;
  }
  body{
@@ -111,7 +111,7 @@ li{
 }
 
 .nav.link{
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: "The Historia Demo", sans-serif;
     font-size: 5rem;
     padding: 1rem;
 
@@ -172,7 +172,7 @@ li{
 }
 .landing-text h1{
     font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: The Historia Demo, sans-serif;
     background: linear-gradient(to top,#ffe838,#fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -223,13 +223,13 @@ li{
     font-size: 5rem;
     transition: color 650ms;
 }
-.fa-facebook-squre:hover{
+.fa-facebook-sqaure:hover{
     color: #4267b2;
 }
-.fa-twitter-squre:hover{
+.fa-twitter-sqaure:hover{
     color: #38a1f3;
 }
-.fa-dribble-squre:hover{
+.fa-dribble-sqaure:hover{
     color: #ea4c89;
 }
 /*End about*/
@@ -318,7 +318,7 @@ li{
 /*End services*/
 
 /*Start timeline*/
-.timeline ul{
+.timeline .ul{
     border-left: 4px solid yellow;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.05);
@@ -330,14 +330,14 @@ li{
     width: 30%;
 }
 
-.timeline h1{
+.timeline .h1{
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
     opacity: .3;
 }
-.timeline date{
+.timeline .date{
     border-bottom: 1px solif rgba(255,255,255, .1);
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -382,7 +382,7 @@ li{
 .contact{
     background-color: #221e3f;
 }
-form{
+.form{
     width: 70%;
     margin:0 auto;
 
@@ -455,9 +455,3 @@ input[type="submit"]:hover{
     }
 }
 /*End footer*/
-
-/*Start animations*/
-/*End animations*/
-
-/*Start media queries*/
-/*End media queries*/
